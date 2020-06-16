@@ -1,0 +1,379 @@
+body {
+    font-family: 'Jost', sans-serif !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eff1fe;
+}
+
+.toggle {
+    display: none;
+}
+
+.headerWrapper {
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.header {
+    width: 95%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerMid {
+    position: relative;
+    right: 11px;
+}
+
+.headerMid h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    color: #000000;
+}
+
+.headerMid h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    color: #ffffff;
+    color: #000000;
+}
+
+.fa-user {
+    font-size: 1.2rem;
+    padding-right: 20px !important;
+    color: #000;
+}
+
+form {
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+    background-color: #eff1fe;
+}
+
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover {
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input {
+    display: block;
+}
+
+form:hover .fa {
+    background: #07051a;
+    color: #fff;
+}
+
+.mobFooterWrapper {
+    margin-top: auto;
+}
+
+.mobFooter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 60px;
+}
+
+.home,
+.practice,
+.mock,
+.coins,
+.profileFooter {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #bac0c5;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.mobFooter a {
+    text-decoration: none;
+    margin: auto;
+}
+
+.active {
+    color: #00b0ff !important;
+    text-shadow: 2px 3px 2px #7c7a7a;
+}
+
+.balance {
+    margin: 5% auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.balance h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.balance h2 {
+    font-size: 1.4rem;
+    display: inline-block;
+}
+
+.balance h3 {
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+#value {
+    padding: 0 5px;
+    border: 2px solid black;
+}
+
+#color {
+    padding: 0 5px;
+    border: 2px solid black;
+    border-left: none;
+}
+
+#amount {
+    padding: 0 5px;
+    border: 2px solid black;
+    border-left: none;
+}
+
+.title {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.title h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 0 rgba(122, 122, 122, 0.61);
+}
+
+.rechargeTabs {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.recharge {
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.bronze .left h1 {
+    color: #804A00;
+}
+
+.bronze .right button {
+    background-color: #804A00;
+}
+
+.gold .left h1 {
+    color: #D4AF37;
+}
+
+.gold .right button {
+    background-color: #D4AF37;
+}
+
+.platinum .left h1 {
+    color: #acf3e1;
+}
+
+.platinum .right button {
+    background-color: #acf3e1;
+}
+
+.left {
+    text-align: left;
+}
+
+.left h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+.middle h1 {
+    font-size: 1.2rem;
+}
+
+.right {
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.right h1 {
+    margin-bottom: 10%;
+}
+
+.right button {
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 1px 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+    .headerWrapper a {
+        text-decoration: none;
+        color: #eff1fe;
+    }
+    .mobFooterWrapper,
+    .profile {
+        display: none;
+    }
+    .headerWrapper {
+        border-radius: 0px;
+        background-color: #ff5466;
+    }
+    .headerMid {
+        display: none;
+    }
+    .toggle {
+        display: block;
+        text-shadow: none;
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 600;
+    }
+    .active {
+        color: #80d8ff !important;
+    }
+    .toggle h1 {
+        display: inline;
+    }
+    .home:hover,
+    .practice:hover,
+    .mock:hover,
+    .coins:hover,
+    .profileFooter:hover {
+        animation-name: scale;
+        animation-duration: 0.5s;
+    }
+    @keyframes scale {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.2);
+        }
+    }
+    .fa {
+        color: #433aca;
+    }
+    form:hover .fa {
+        background: #433aca !important;
+    }
+    .balance {
+        margin-bottom: 2%;
+    }
+    .balance h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2%;
+    }
+    .balance h2 {
+        font-size: 2rem;
+    }
+    .balance h3 {
+        font-size: 1.8rem;
+    }
+    .title {
+        margin-top: 0;
+    }
+    .title h1 {
+        font-size: 2.2rem;
+    }
+    .left {
+        font-size: 1.4rem;
+    }
+    .left h1 {
+        font-size: 1.8rem;
+    }
+    .middle h1 {
+        font-size: 1.8rem;
+    }
+    .right h1 {
+        font-size: 1.4rem;
+    }
+    .right button {
+        font-size: 1.4rem;
+    }
+    .rechargeTabs {
+        margin-top: 0;
+    }
+}
