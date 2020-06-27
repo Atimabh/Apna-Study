@@ -13,7 +13,7 @@ a {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background-color: #eff1fe;
+    background-color: #bec0da;
 }
 
 .testWrapper {
@@ -55,22 +55,20 @@ a {
     text-align: center;
     margin-bottom: 0.2rem;
     font-weight: 600;
-    color: #ffffff;
-    color: #000000;
+    color: #292059;
 }
 
 .headerMid h2 {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 0.2rem;
-    color: #ffffff;
-    color: #000000;
+    color: #292059;
 }
 
 .fa-user {
     font-size: 1.2rem;
     padding-right: 20px !important;
-    color: #000;
+    color: #292059;
 }
 
 form {
@@ -113,7 +111,7 @@ input {
     top: 0;
     right: 0;
     border-radius: 50%;
-    color: #000;
+    color: #292059;
     text-align: center;
     font-size: 1.2em;
     transition: all 1s;
@@ -129,7 +127,7 @@ form:hover input {
 }
 
 form:hover .fa {
-    background: #07051a;
+    background: #292059;
     color: #fff;
 }
 
@@ -154,7 +152,7 @@ form:hover .fa {
 .profileFooter {
     margin-top: auto;
     margin-bottom: auto;
-    color: #bac0c5;
+    color: #7c7499;
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -165,8 +163,7 @@ form:hover .fa {
 }
 
 .active {
-    color: #00b0ff !important;
-    text-shadow: 2px 3px 2px #7c7a7a;
+    color: #292059 !important;
 }
 
 .carousel {
@@ -265,7 +262,7 @@ form:hover .fa {
     }
     .headerWrapper {
         border-radius: 0px;
-        background-color: #ff5466;
+        background-color: #292059;
     }
     .headerMid {
         display: none;
@@ -289,25 +286,21 @@ form:hover .fa {
     .slick .image {
         height: 500px;
     }
+    .home,
+    .practice,
+    .mock,
+    .profileFooter {
+        transition: transform 0.5s;
+    }
     .home:hover,
     .practice:hover,
     .mock:hover,
     .coins:hover,
     .profileFooter:hover {
-        animation-name: scale;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-    }
-    @keyframes scale {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(1.2);
-        }
+        transform: scale(1.2);
     }
     .fa {
-        color: #433aca;
+        color: #292059;
     }
     form:hover .fa {
         background: #433aca !important;

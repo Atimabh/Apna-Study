@@ -21,7 +21,7 @@ $('.slick').slick({
 var element = document.getElementsByClassName('chart');
 for (var i = 0; i < element.length; i++) {
     new EasyPieChart(element[i], {
-        barColor: '#2cdfb3',
+        barColor: '#74ea36',
         trackColor: '#f0f0f2',
         size: 40,
         scaleColor: false
