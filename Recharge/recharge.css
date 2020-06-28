@@ -203,7 +203,7 @@ form:hover .fa {
 .title h1 {
     font-size: 1.6rem;
     font-weight: 600;
-    text-shadow: 2px 2px 0 rgba(122, 122, 122, 0.61);
+    color: #292059;
 }
 
 .rechargeTabs {

@@ -222,7 +222,7 @@ form:hover .fa {
     align-self: center;
     margin-top: 8px;
     border: none;
-    background-color: rgba(255, 0, 0, 0.651);
+    background-color: #292059;
     color: #fff;
     padding: 5px;
     font-weight: 600;
@@ -233,16 +233,19 @@ form:hover .fa {
 .test h1 {
     font-size: 1.5rem;
     font-weight: 600;
+    color: #292059;
 }
 
 .test h2 {
     font-size: 1.2rem;
+    color: #292059;
 }
 
 .title {
     font-size: 1.5rem;
     margin-bottom: 2%;
-    text-shadow: 2px 2px 2px rgb(116, 104, 101);
+    color: #292059;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 800px) {
